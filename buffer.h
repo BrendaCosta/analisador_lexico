@@ -85,7 +85,7 @@ char arquivo(char* nome_arquivo)
       --------------------------------------------*/
       if((arquivo = fopen(nome_arquivo,"r")) == NULL){
           cout << ":.Erro na Abertura do Arquivo.:" << endl;
-          cout << "Verifique se o endereco do arquivo foi degitado corretamente" << endl;
+          cout << "Verifique se o endereco do arquivo foi digitado corretamente" << endl;
       }
 
       

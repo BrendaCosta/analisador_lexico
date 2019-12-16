@@ -894,7 +894,8 @@ token ProximoToken ()
                   		InicioDeLexema = ApontadorAdiante;
 		    return t;
          /*---------------------Fim "erro"----------------------*/
+          
         }//Fim switch
-  		}//Fim while
+  		}//Fim while		
 }//Fim Procedimento
 /*-----------------------Fim token ProximoToken()-----------------------------*/
