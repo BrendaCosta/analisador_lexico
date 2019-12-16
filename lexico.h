@@ -743,20 +743,10 @@ token ProximoToken ()
           break;
 
 
-          case 63: c = ProximoCaracter ( );
-          			if (c == '=')
-                  	estado = 64;
-                  else
-                  {
-                      ApontadorAdiante = InicioDeLexema;
-                  	 estado = partida = FalhouAutomatos(partida);
-                  }
-          break;
 
-
-          case 64:
+          case 63:
           			t.classe = 18;
-                  strcpy(t.valor,":=");//Retorna o Lexema
+                  strcpy(t.valor,":");//Retorna o Lexema
                   t.posicaoL = linha; //Linha do Lexema
                   		InicioDeLexema = ApontadorAdiante;
 			 return t;
