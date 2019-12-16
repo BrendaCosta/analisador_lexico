@@ -12,7 +12,7 @@ using namespace std;
 int main ()
 {
    //Digite aqui o arquivo para leitura: ArquivoFonte1.mln  ou  ArquivoFonte2.mln .
-	arquivo("ArquivoFonte2.mln");
+	arquivo("ArquivoFonte1.mln");
 
    //Retorna os tokens
    RetornaToken ();

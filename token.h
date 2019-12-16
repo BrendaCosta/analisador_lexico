@@ -40,11 +40,12 @@ void RetornaToken ()
             case 22:  cout << "Classe = " << "erro" << endl;                break;
             case 23:  cout << "Classe = " << "num" << endl;                break;
             case 24:  cout << "Classe = " << "string" << endl;                break;
-            case 25:  cout << "Classe = " << "'""''' "<< endl;                break;
+            case 25:  cout << "Classe = " << "\""<< endl;                break;
             case 26:  cout << "Classe = " << ">" << endl;                break;
             case 27:  cout << "Classe = " << ":=" << endl;                break;
             case 28:  cout << "Classe = " << "{" << endl;                break;
             case 29:  cout << "Classe = " << "}" << endl;                break;
+            case 30:  cout << "Classe = " << "," << endl;                break;
             
             
    		}
